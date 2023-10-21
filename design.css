@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap");
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Zilla Slab", serif;
   background-image: url(img.webp);
   background-position: center;
   background-repeat: no-repeat;
@@ -14,7 +16,7 @@ body {
   background: rgba(255, 255, 255, 0.2);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
-  color: white;
+  color: rgb(0, 0, 0);
   text-align: center;
   padding: 20px;
 }
@@ -62,7 +64,7 @@ h2 {
 /* Style the prompt input */
 input[type="text"] {
   padding: 10px;
-  border: 1px solid #3498db;
+  border: 1px solid #a84706;
   border-radius: 5px;
   font-size: 16px;
   margin: 10px;
@@ -70,7 +72,7 @@ input[type="text"] {
 
 /* Style the prompt button */
 input[type="button"] {
-  background-color: #3498db;
+  background-color: #cf4e1b;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -81,5 +83,5 @@ input[type="button"] {
 
 /* Hover effect for the button */
 input[type="button"]:hover {
-  background-color: #217dbb;
+  background-color: #ee5113;
 }

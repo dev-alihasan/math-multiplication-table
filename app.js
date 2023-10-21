@@ -1,6 +1,6 @@
 function mlTable(number) {
   let tableContainer = document.getElementById("table-container");
-  tableContainer.innerHTML = ""; 
+  tableContainer.innerHTML = "";
   for (input = 1; input <= 10; input++) {
     let result = number * input;
     let equation = `${number} x ${input} = ${result}<br>`;
