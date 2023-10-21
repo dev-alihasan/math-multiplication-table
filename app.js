@@ -1,10 +1,11 @@
-let number = prompt(
-  " If you'd like to know a specific multiplication table, just let me know which one you're interested in, and I'll be happy to help."
-);
+let number = prompt("Enter a number for the multiplication table:");
 
 function mlTable(number) {
+  let tableContainer = document.getElementById("table-container");
   for (input = 1; input <= 10; input++) {
-    document.write(`${number} x ${input}  =  ${number * input} <br>  `);
+    let result = number * input;
+    let equation = `${number} x ${input} = ${result}<br>`;
+    tableContainer.innerHTML += equation;
   }
 }
 
