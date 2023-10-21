@@ -13,3 +13,4 @@ function generateTable() {
   const number = numberInput.value;
   mlTable(number);
 }
+// code by arnob
