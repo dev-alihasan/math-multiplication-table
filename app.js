@@ -4,6 +4,8 @@ let number = prompt(
 
 function mlTable(number) {
   for (input = 1; input <= 10; input++) {
-    document.write(`$ {number} x $ {input} = $ {number} * $ {input} `);
+    document.write(`${number} x ${input}  =  ${number * input} <br>  `);
   }
 }
+
+mlTable(number);
