@@ -15,9 +15,10 @@ If you'd like to know a specific multiplication table, just enter the number you
 
 ## Demo
 
-You can see a live demo of this project [here](#your-demo-url).
+You can see a live demo of this project [here](https://mathmagictables.netlify.app/).
 
-![Demo](demo-screenshot.png)
+[How it look]![MathMagicTables](https://github.com/dev-alihasan/math-multiplication-table/assets/101947194/f3abb9e2-0395-4b22-bb46-05e25696bbea)
+
 
 ## code used
 
